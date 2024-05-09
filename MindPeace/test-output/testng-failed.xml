@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ITLearn.testCases.PaymentTest">
+      <class name="com.ITLearn.testCases.DashboardTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="VerifyByEnteringInvalidCardNumber"/>
+          <include name="verifyDashboard"/>
         </methods>
-      </class> <!-- com.ITLearn.testCases.PaymentTest -->
+      </class> <!-- com.ITLearn.testCases.DashboardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
